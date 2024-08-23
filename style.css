@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+h1 {
+    color: rgb(140, 10, 66);
+    font-size: 30px;
+}
+
+.botonera {
+    width: 1400px;
+    height: 100px;
+    background-color: rgb(153, 3, 153);
+}
+
+#cabecera {
+    background-color: rgb(17, 0, 128);
+    width: 1200px;
+    height: 400px;
+}
+
+header li {
+    font-size: 15px;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
