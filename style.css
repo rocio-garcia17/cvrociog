@@ -1,28 +1,94 @@
 @charset "utf-8";
 
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(140, 10, 66);
-    font-size: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(140, 10, 66);
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+ul li {
+    font-style: italic;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    border: 1px solid white;
+    padding: 10px 20px;
 }
 
 .botonera {
-    width: 1400px;
+    width: 1500px;
     height: 100px;
-    background-color: rgb(153, 3, 153);
+    background-color: rgb(251, 7, 153);
 }
 
 #cabecera {
-    background-color: rgb(17, 0, 128);
-    width: 1200px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
 }
 
 header li {
     font-size: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 795px;
+    height: 1123px;
+    background-color: rgb(247, 131, 209);
+}
+
+main {
+	padding: 0 0 50px 100px;
+	width: 800px;
+}
+
+.caja {
+    width: 1350px;
+    height: 90px;
+    padding: 0px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align:center;
+    height: 50px;
+    width: 1500px;
+    line-height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
 }
