@@ -8,8 +8,8 @@
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(140, 10, 66);
-    font-size: 50px;
+    color: rgb(247, 248, 248);
+    font-size: 40px;
     text-transform: uppercase;
 }
 h2 {
@@ -18,6 +18,7 @@ h2 {
     font-size: 25px;
     text-transform: uppercase;
     margin-top: 30px;
+    padding: 20px 0px;
 }
 
 ul li {
@@ -29,19 +30,7 @@ h3 {
     color: rgb(0, 0, 0);
     font-size: 17px;
     text-transform: uppercase;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline;
-    border: 1px solid white;
-    padding: 10px 20px;
-}
-
-.botonera {
-    width: 1500px;
-    height: 100px;
-    background-color: rgb(251, 7, 153);
+    padding: 20px 0px;
 }
 
 #cabecera {
@@ -49,37 +38,90 @@ nav ul li {
     height: 100px;
 }
 
-header li {
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-}
-
 body {
-    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
     font-family:Arial, Helvetica, sans-serif;
-    width: 795px;
-    height: 1123px;
     background-color: rgb(247, 131, 209);
 }
 
-main {
-	padding: 0 0 50px 100px;
-	width: 800px;
+header img {
+    margin: 20px;
 }
 
-.caja {
-    width: 1350px;
-    height: 90px;
-    padding: 0px;
+header {
+    font-size: 15px;
+    width: 1200px;
+    height: 200px;
+    background-color: #000000;
+}
+
+nav {
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    width: 500px;
+    height: 80px;
+}
+
+main {
+    width: 1200px;
+	height: 940px;
+    display: flex;
+    background-color: rgb(246, 81, 169);
+    align-items: center;
+}
+
+
+#trayectoria {
+    background-color: brown;
+    width: 2400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#contacto  {
+    padding: 20px;
+}
+
+#portafolio  {
+    padding: 20px;
+}
+
+#habilidades {
+    padding: 20px;
+}
+
+.botonera {
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(251, 7, 153);
+    font-size: 25px;
 }
 
 footer {
     background: black;
     color: white;
     text-align:center;
-    height: 50px;
-    width: 1500px;
+    height: 80px;
+    width: 1200px;
     line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a{
@@ -91,3 +133,5 @@ a:hover {
     color: black;
     font-size: 20px;
 }
+
+
