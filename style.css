@@ -67,7 +67,7 @@ main {
 	width: 800px;
 }
 
-.caja {
+.caja {  /*si queremos separa no usamo un div sino que le damos separaciones en el main o en el header*/
     width: 1350px;
     height: 90px;
     padding: 0px;
