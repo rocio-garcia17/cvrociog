@@ -13,8 +13,9 @@ Se buscó que a través de la creación de varios html, que uno pueda navegar en
 #### Archivos html:
 En el nav, hay un botón que te lleva a la section “sobre mí” del index y otro que te lleva hacia los proyectos destacados. También hay otro que te direcciona hacia mi cv para hacer una descarga en caso necesario, y otro botón que te lleva al html de contacto. 
 
-**1-index.html:** contiene una breve presentación e información sobre mí, con un botón que te lleva al html de trayectoria para conocerme más. También muestro algunos proyectos destacados de las distintas materias de la carrera con información, y otros proyectos que al hacer click en alguno de ellos te direcciona a información adicional del seleccionado. Asimismo al hacer scroll en el index hay un apartado de links sobre mis redes, con un botón que te direcciona hacia el html de contacto. 
+**1-index.html:** contiene una breve presentación e información sobre mí, con un botón que te lleva al html de trayectoria para conocerme más. También muestro algunos proyectos destacados de las distintas materias de la carrera con información. Asimismo al hacer scroll en el index hay un apartado de links sobre mis redes, con un botón que te direcciona hacia el html de contacto. 
+
+**2-trayectoria.html:** contiene información más detallada sobre mi experiencia, habilidades, intereses, idiomas, etc.
 
 **2-contacto.html:** posee un breve texto de introducción y un formulario para llenar con datos de contacto.
 
-**3-galería.html:** luego de seleccionar un proyecto en el index, este te lleva hacia el html de galería, donde se muestra su respectiva descripción e imagen. En total son 6 galerías en html distintos.
