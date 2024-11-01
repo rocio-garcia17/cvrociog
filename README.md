@@ -7,6 +7,7 @@
 Para hacer este trabajo web utilicé Visual Studio Code como editor de código, y trabajé en un tamaño de pantalla de 1366px/768px.
 ### Vinculación con Figma
 Estuve trabajando bastante en Figma, en principio para tener una guía de la estructura de la página y saber cómo y por dónde quería ir. https://www.figma.com/design/h8kgLuxlNVfzeoyJL4Dn24/Portfolio-RocioG?t=tYW9FGYCg09fGsGl-0
+
 Se buscó que a través de la creación de varios html, que uno pueda navegar en la página de forma más clara, en lugar de que toda la información esté en el Index / Landing, y de esta forma hacerlo más interactivo, también con varios botones. 
 
 #### Archivos html:
