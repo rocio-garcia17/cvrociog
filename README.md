@@ -16,4 +16,4 @@ En el nav, hay un botón que te lleva a la section “sobre mí” del index y o
 
 **2-contacto.html:** posee un breve texto de introducción y un formulario para llenar con datos de contacto.
 
-**3-galería.html:** luego de seleccionar un proyecto en el index, este te lleva hacia el html de galería, donde se muestra su respectiva descripción e imagen. 
+**3-galería.html:** luego de seleccionar un proyecto en el index, este te lleva hacia el html de galería, donde se muestra su respectiva descripción e imagen. En total son 6 galerías en html distintos.
