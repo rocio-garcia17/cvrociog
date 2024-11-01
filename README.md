@@ -6,9 +6,9 @@
 Para hacer este trabajo web utilicé Visual Studio Code como editor de código, y trabajé en un tamaño de pantalla de 1366px/768px.
 ### Vinculación con Figma
 Estuve trabajando bastante en Figma, en principio para tener una guía de la estructura de la página y saber cómo y por dónde quería ir. https://www.figma.com/design/h8kgLuxlNVfzeoyJL4Dn24/Portfolio-RocioG?t=tYW9FGYCg09fGsGl-0
-Se buscó que a través de la creación de varios html, uno pueda navegar en la página de forma más clara, en lugar de que toda la información esté en el Index / Landing, y de esta forma hacerlo más interactivo, también con varios botones. 
+Se buscó que a través de la creación de varios html, que uno pueda navegar en la página de forma más clara, en lugar de que toda la información esté en el Index / Landing, y de esta forma hacerlo más interactivo, también con varios botones. 
 
-####Archivos html:
+#### Archivos html:
 En el nav, hay un botón que te lleva a la section “sobre mí” del index y otro que te lleva hacia los proyectos destacados. También hay otro que te direcciona hacia mi cv para hacer una descarga en caso necesario, y otro botón que te lleva al html de contacto. 
 1-index.html: contiene una breve presentación e información sobre mí, con un botón que te lleva al html de trayectoria para conocerme más. También muestro algunos proyectos destacados de las distintas materias de la carrera con información, y otros proyectos que al hacer click en alguno de ellos te direcciona a información adicional del seleccionado. Asimismo al hacer scroll en el index hay un apartado de links sobre mis redes, con un botón que te direcciona hacia el html de contacto. 
 2-contacto.html: posee un breve texto de introducción y un formulario para llenar con datos de contacto.
