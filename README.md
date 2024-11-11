@@ -11,14 +11,6 @@ Estuve trabajando bastante en Figma, en principio para tener una guía de la est
 Se buscó que a través de la creación de varios html, que uno pueda navegar en la página de forma más clara, en lugar de que toda la información esté en el Index / Landing, y de esta forma hacerlo más interactivo, también con varios botones. 
 
 #### Archivos html:
-En el nav, hay un botón que te lleva a la section “sobre mí” del index y otro que te lleva hacia los proyectos destacados. También hay otro que te direcciona hacia mi cv para hacer una descarga en caso necesario, y otro botón que te lleva al html de contacto. 
-
-**1-index.html:** contiene una breve presentación e información sobre mí, con un botón que te lleva al html de trayectoria para conocerme más. También muestro algunos proyectos destacados de las distintas materias de la carrera con información. Asimismo al hacer scroll en el index hay un apartado de links sobre mis redes, con un botón que te direcciona hacia el html de contacto. 
-
-**2-trayectoria.html:** contiene información más detallada sobre mi experiencia, habilidades, intereses, idiomas, etc.
-
-**3-contacto.html:** contiene un formulario en donde el usuario puede dejar sus datos y contactarse conmigo, o despejar dudas, consultas, etc.
-
-**3-galeria.html:** contiene información detallada sobre cada proyecto. Son 6 html correspondientes ala galería. Al hacer click en una de las imágenes de la sección "Otros proyectos" del index, para ver más, se amplía la información.
+En el nav, hay un botón que te lleva a la section “sobre mí” del index y otro que te lleva hacia los proyectos destacados. También hay otro que te direcciona hacia mi cv para hacer una descarga en caso necesario, y otro botón que te lleva al html de contacto. **1-index.html:** contiene una breve presentación e información sobre mí, con un botón que te lleva al html de trayectoria para conocerme más. También muestro algunos proyectos destacados de las distintas materias de la carrera con información. Asimismo al hacer scroll en el index hay un apartado de links sobre mis redes, con un botón que te direcciona hacia el html de contacto. **2-trayectoria.html:** contiene información más detallada sobre mi experiencia, habilidades, intereses, idiomas, etc. **3-contacto.html:** contiene un formulario en donde el usuario puede dejar sus datos y contactarse conmigo, o despejar dudas, consultas, etc. **4-galeria.html:** contiene información detallada sobre cada proyecto. Son 6 html correspondientes ala galería. Al hacer click en una de las imágenes de la sección "Otros proyectos" del index, para ver más, se amplía la información.
 
 También hay un archivo Javascript que lo utilicé para realizar el carrusel de las imágenes de los proyectos destacados.
