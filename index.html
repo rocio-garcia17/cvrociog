@@ -24,7 +24,6 @@
                     </ul>
                 </div>
             </nav>
-
 <!--portada-titular-->
             <section class="titular">
                 <div class="texto">
@@ -32,7 +31,6 @@
                 </div>
             </section>
 		</header>
-        
         <main>
 <!--sobre-mi-->
             <section class="corazones">
@@ -57,42 +55,103 @@
                         <li>Horario flexible</li>
                     </ul>
                     <a href="trayectoria.html">
-                        <button class="boton-trayectoria">CONOCEME MÁS!</button>
+                        <button id="boton-trayectoria" class="boton-trayectoria">¡CONOCEME MÁS!</button>
                     </a>
                     </article>
                 </div>
                 <div class="imagensobremi">
-                    <img src="img/jpg/cvrocio.jpg" alt="imagenrocio" class="fotocv">
+                    <img src="img/jpg/cvrocio.jpg" width="450" height="630" alt="imagenrocio" class="fotocv"> 
                 </div>
             </section>
 
-<!--proyectos-destacados-->
-<section class="proyectosdestacados" id="proyectosdestacados">
-	<article class="contenedorproyectos">
-	<h2 class="tituloproyecto">- Proyectos destacados -</h2>
-			<div class="cont-proyecto-indiv">
-				<img src="img/jpg/proyectos-destacados1.jpg" width="630" height="380" alt="Proyecto Jazz" class="img-proyectos">
-                <h4>Sistema gráfico editorial “Jazz”, para evento cultural, educativo y/o deportivo.</h4>
-                <p class="epigrafe">Proyecto realizado para la materia Espacio Tipográfico 2 (2022).</p>
-			</div>
-			<div class="cont-proyecto-indiv">
-				<img src="img/jpg/proyectos-destacados2.jpg" width="630" height="380" alt="Proyecto Bandoneón" class="img-proyectos">
-                <h4>Diseño de información / Infografía, sobre el funcionamiento del bandoneón.</h4>
-                <p class="epigrafe">Proyecto realizado para la materia Espacio Tipográfico 3 (2023).</p>
-			</div>
-			<div class="cont-proyecto-indiv">
-				<img src="img/jpg/proyectos-destacados3.jpg" width="630" height="380" alt="Proyecto Metrópolis" class="img-proyectos">
-				<h4>Imágenes basadas en la película “Metrópolis”, una película alemana de ciencia ficción de 1927, dirigida por Fritz Lang.</h4>
-				<p class="epigrafe">Proyecto realizado para la materia Fotografía (2023).</p>
-			</div>
-			<div class="cont-proyecto-indiv">
-				<img src="img/jpg/proyectos-destacados4.jpg" width="630" height="380" alt="Proyecto Etiquetas" class="img-proyectos">
-                <h4>Diseño de etiquetas para vinos basada en el “El club de la pelea”, una película estadounidense de 1999 dirigida por David Fincher.</h4>
-                <p class="epigrafe">Proyecto realizado para la materia Taller de Diseño 3 (2024).</p>
-			</div>
-	</article>
-</section>
+            <section class="proyectos-destacados">
+                <h2 id="proyectos" class="tituloprincipal">- Proyectos destacados -</h2>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="cont-proyecto-indiv">
+                            <img src="img/jpg/proyectos-destacados1.jpg" alt="proyectojazz" class="img-proyectos">
+                            <h4>FESTIVAL JAZZ - 2022</h4>
+                            <p class="epigrafe">Proyecto realizado para la materia Espacio Tipográfico 2. Sistema gráfico editorial “Jazz”, para evento cultural, educativo y/o deportivo.</p>
+                        </div>
+                        <div class="cont-proyecto-indiv">
+                            <img src="img/jpg/proyectos-destacados2.jpg" alt="proyectobandoneon" class="img-proyectos">
+                            <h4>INFOGRAFÍA - 2023</h4>
+                            <p class="epigrafe">Proyecto realizado para la materia Espacio Tipográfico 3. Diseño de información / Infografía, sobre el funcionamiento del bandoneón.</p>
+                        </div>
+                        <div class="cont-proyecto-indiv">
+                            <img src="img/jpg/proyectos-destacados3.jpg" alt="proyectometropolis" class="img-proyectos">
+                            <h4>METRÓPOLIS - 2023</h4>
+                            <p class="epigrafe">Proyecto realizado para la materia Fotografía. Imágenes basadas en la película “Metrópolis”, una película alemana de ciencia ficción de 1927, dirigida por Fritz Lang.</p>
+                        </div>
+                        <div class="cont-proyecto-indiv">
+                            <img src="img/jpg/proyectos-destacados4.jpg" alt="proyectoetiquetas" class="img-proyectos">
+                            <h4>ALTER EGO - 2024</h4>
+                            <p class="epigrafe">Proyecto realizado para la materia Taller de Diseño 3. Diseño de etiquetas para vinos basada en el “El club de la pelea”, una película estadounidense dirigida por David Fincher.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Flechas de navegación -->
+                    <button class="carousel-arrow prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="carousel-arrow next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </section>
 
+<!--otrpsproyectos-->
+<article aria-label="galeria" id="galeria">
+    <h3>- Otros proyectos -</h3>
+    <ol aria-label="Photographs" class="ol-cont-galeria">
+        <li>
+            <a href="galeria1.html">
+                <div class="image-container">
+                    <img src="img/jpg/banner1.jpg" alt="galeria1" style="view-transition-name: photo-0">
+                    <div class="image-title">VER MÁS</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="galeria2.html">
+                <div class="image-container">
+                    <img src="img/jpg/banner2.jpg" alt="galeria2" style="view-transition-name: photo-1">
+                    <div class="image-title">VER MÁS</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="galeria3.html">
+                <div class="image-container">
+                    <img src="img/jpg/banner3.jpg" alt="galeria2" style="view-transition-name: photo-1">
+                    <div class="image-title">VER MÁS</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="galeria4.html">
+                <div class="image-container">
+                    <img src="img/jpg/banner4.jpg" alt="galeria2" style="view-transition-name: photo-1">
+                    <div class="image-title">VER MÁS</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="galeria5.html">
+                <div class="image-container">
+                    <img src="img/jpg/banner5.jpg" alt="galeria2" style="view-transition-name: photo-1">
+                    <div class="image-title">VER MÁS</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="galeria6.html">
+                <div class="image-container">
+                    <img src="img/jpg/banner6.jpg" alt="galeria2" style="view-transition-name: photo-1">
+                    <div class="image-title">VER MÁS</div>
+                </div>
+            </a>
+        </li>
+        <!-- Agrega los demás elementos de la misma manera -->
+    </ol>
+</article>
+    
 <!--graciasporver-->
             <section class="contacto">
                 <div class="gracias-por-ver"> 
@@ -103,10 +162,10 @@
 
 <!--misredes-->
 			<section class="sectioncontacto">
-				<h4 class="titulocontacto">-MIS REDES-</h4>
+				<h4 class="titulocontacto">- MIS REDES -</h4>
 				<adress class="#contacto" id="contacto">
 					<div>
-						<p class="redes">Email:</p> 
+						<p class="redes">Email</p> 
 						<a href="https://www.rocioayelengarcia177@gmail.com" target="_blank">rocioayelengarcia177</a>
 						<p class="redes">Behance</p>
 						<a href="https://www.behance.net/rociogarcia53" target="_blank">behance.net/rociogarcia53</a>
@@ -145,11 +204,6 @@
 				<p>Página diseñada en el marco de la materia Computación III, </p>
             	<p>Universidad Nacional de Lanús. Todos los derechos reservados, 2024.</p>
             </div>
-        	<div class="logos-contacto">
-            	<a href="https://www.behance.net/rociogarcia53" target="_blank"><img src="img/svg/behance.svg" width="40px" alt="logo behance"></a>
-            	<a href="https://www.instagram.com/rocio_ashe17/" target="_blank"><img src="img/svg/instagram.svg" width="40px" alt="logo instagram"></a>
-            	<a href="https://www.linkedin.com/in/rocio-ayel%C3%A9n-garcia-8486112b2/" target="_blank"><img src="img/svg/linkedin.svg" width="40px" alt="logo linkedin"></a>
-        	</div>
 			<div>
                 <p>Rocio Ayelén Garcia</p>
                 <p>Buenos Aires, Argentina.</p>

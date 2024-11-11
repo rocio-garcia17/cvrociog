@@ -23,7 +23,7 @@
             </nav>
         </header>
         <main>
-            <section class="corazones">
+            <section class="corazones-otros">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
@@ -33,32 +33,52 @@
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="fcorazon" class="corazon">
             </section>
-            <section class="zona-formulario">
-                    <h3 class="h3-formulario">¡Conectemos!</h3>
-                    <h4 class="subtitulo-form">Dejá tus consultas en el siguiente formulario:</h4>
-                    <form method="post" action="mailto:rocioayelengarcia177@gmail.com?subject='Email enviado desde el formulario'" target="_blank" enctype="text/plain">
-                        <div class="items-formulario">
+            <section class="contenedor-formulario">
+                <h2 class="titulo-contacto h2-formulario">¡Contactame!</h2>
+                <p class="descripcion-contacto">- TRABAJEMOS JUNTOS EN UN PROYECTO -</p><p>campos obligatorios*</p>
+                <form class="formulario-contacto">
+                        <div class="contenedor-campos">
+                            <!-- Columna izquierda -->
                             <div class="columna-izq-form">
-                                <label for="apellido_nombre">APELLIDO Y NOMBRE</label>
-                                <input type="text" name="apellido_nombre" id="apellido_nombre" maxlenght="50" placeholder="Escribí tu nombre completo" required>
-                                <label for="email">CORREO ELECTRÓNICO</label>
-                                <input type="email" name="email" id="email" maxlenght="50" placeholder="Escribí un correo electrónico" required>
+                                <div class="mb-1">
+                                    <label for="nombre" class="form-label">NOMBRE Y APELLIDO *</label>
+                                    <input type="text" id="nombre" class="form-control" placeholder="Escribí tu nombre completo">
+                                </div>
+
+                                <div class="mb-1">
+                                    <label for="apellido" class="form-label">PROYECTO O EMPRESA</label>
+                                    <input type="text" id="apellido" class="form-control" placeholder="Nombre del proyecto o empresa">
+                                </div>
                             </div>
+            
+                            <!-- Columna derecha -->
                             <div class="columna-der-form">
-                                <label for="proyecto_empresa">PROYECTO O EMPRESA</label>
-                                <input type="text" name="proyecto_empresa" id="proyecto_empresa" maxlenght="30" placeholder="Nombre del proyecto o empresa" required>
-                                <label for="telefono">TELÉFONO</label>
-                                <input type="tel" name="telefono" id="telefono" placeholder="(011) ____ ____">
+                                <div class="mb-2">
+                                    <label for="email" class="form-label">CORREO ELECTRÓNICO *</label>
+                                    <input type="email" id="email" class="form-control" placeholder="Escribí un correo electrónico">
+                                </div>
+            
+                                <div class="mb-2">
+                                    <label for="telefono" class="form-label">NÚMERO DE TELÉFONO</label>
+                                    <input type="tel" id="telefono" class="form-control" placeholder="(011) 2345-6789">
+                                </div>
                             </div>
                         </div>
-                            <div class="mensaje-form">
-                                <label for="mensaje">MOTIVO</label>
-                                <textarea name="mensaje" id="mensaje">Escribí las dudas o consultas</textarea>
-                            </div>
-                            <div class="boton-enviar">
-                                <input type="submit" class="submit">
-                            </div>
-                    </form>
+            
+                        <!-- Campo Mensaje (ocupa el ancho completo) -->
+                        
+                        <div class="mb-3 mensaje-container">
+                            <label for="mensaje" class="form-label">MOTIVO</label>
+                            <textarea id="mensaje" class="form-control" rows="5" placeholder="Escribí las dudas o consultas"></textarea>
+                        </div>
+            
+                        <!-- Botones de Enviar y Borrar -->
+                        <div class="botones-formulario">
+                            <button type="reset" class="btn btn-secondary">BORRAR TODO</button>
+                            <button type="submit" class="btn btn-primary">ENVIAR</button>
+                        </div>
+                    </fieldset>
+                </form>
             </section>
             <section class="sectioncontacto">
                     <h4 class="titulocontacto">-MIS REDES-</h4>
@@ -79,7 +99,7 @@
                         </div>
                     </adress>
             </section>
-            <section class="corazones">
+            <section class="corazones-otros">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
                 <img src="img/svg/corazonrosa.svg" height="50px" alt="corazon" class="corazon">
@@ -94,11 +114,6 @@
             <div class="copyright">
                 <p>Página diseñada en el marco de la materia Computación III, </p>
                 <p>Universidad Nacional de Lanús. Todos los derechos reservados, 2024.</p>
-            </div>
-            <div class="logos-contacto">
-                <a href="https://www.behance.net/rociogarcia53" target="_blank"><img src="img/svg/behance.svg" width="40px" alt="logo behance"></a>
-                <a href="https://www.instagram.com/rocio_ashe17/" target="_blank"><img src="img/svg/instagram.svg" width="40px" alt="logo instagram"></a>
-                <a href="https://www.linkedin.com/in/rocio-ayel%C3%A9n-garcia-8486112b2/" target="_blank"><img src="img/svg/linkedin.svg" width="40px" alt="logo linkedin"></a>
             </div>
             <div>
                 <p>Rocio Ayelén Garcia</p>
