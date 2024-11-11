@@ -1,7 +1,7 @@
 # TP Individual / Segunda parte (entrega final) – García Rocio Ayelén
-01/11 Realizo la entrega final del TP1 - Parte 2 | Ampliación de Currículum Vitae (Portfolio).
+011/11 Realizo la entrega final del TP1 - Parte 2 | Ampliación de Currículum Vitae (Portfolio).
 
-¡Hola! Este es mi trabajo web! En todo el proceso y luego de la primera corrección, quería comentar que logré corregir algunos códigos del html, como por ejemplo cerrar divs, o algunos links que estaban mal linkeados. También utilicé la recomendación de height: fit content y luego padding bottom, para que los margins bottom no me queden tan grandes. Luego de corregir eso siento que en esta etapa lo he logrado mejor y de forma más prolija. Utilicé una paleta cromática amplia en cuanto a saturación, por un lado un violeta saturado y por el otro un rosa desaturado. También utilicé dos tipografías bien contrastadas entre sí, la Nunito Sans para textos en particular, y la JetBrainsMono para titulares o destacados. Es por esto que considero que la página en su conjunto logró tener consistencia e identidad. Sin duda, estoy segura de que el trabajo podría seguir mejorando y creo objetivamente que he aprendido mucho. En figma no están del todo resueltas algunas interacciones, o algunas no funcionan, pero al fin y al cabo en el código pude lograrlo.
+¡Hola! Este es mi trabajo web! En todo el proceso y luego de la primera corrección, quería comentar que logré corregir algunos códigos del html, como por ejemplo cerrar divs, o algunos links que estaban mal linkeados. También utilicé la recomendación de height: fit content y luego padding bottom, para que los margins bottom no me queden tan grandes. Luego de corregir eso siento que en esta etapa lo he logrado mejor y de forma más prolija. Utilicé una paleta cromática amplia en cuanto a saturación, por un lado un violeta saturado y por el otro un rosa desaturado. También utilicé dos tipografías bien contrastadas entre sí, la Nunito Sans para textos en particular, y la JetBrainsMono para titulares o destacados. Es por esto que considero que la página en su conjunto logró tener consistencia e identidad. También reconozco que con el mediaqueries tuve algunas complicaciones, como por ejemplo la botonera del nav aunque sí hice para el index y para la galería. Otra cosa que me hubiese gustado agregarle al trabajo, son efectos de sonido al pasar el mouse por alguno de los botones del index, con Javascript. Sin duda, estoy segura de que el trabajo podría seguir mejorando y creo objetivamente que he aprendido mucho. En figma no están del todo resueltas algunas interacciones, o algunas no funcionan, pero al fin y al cabo en el código pude lograrlo.
 
 ## Descripciones generales
 Para hacer este trabajo web utilicé Visual Studio Code como editor de código, y trabajé en un tamaño de pantalla de 1366px/768px.
@@ -17,5 +17,8 @@ En el nav, hay un botón que te lleva a la section “sobre mí” del index y o
 
 **2-trayectoria.html:** contiene información más detallada sobre mi experiencia, habilidades, intereses, idiomas, etc.
 
-**2-contacto.html:** posee un breve texto de introducción y un formulario para llenar con datos de contacto.
+**3-contacto.html:** contiene un formulario en donde el usuario puede dejar sus datos y contactarse conmigo, o despejar dudas, consultas, etc.
 
+**3-galeria.html:** contiene información detallada sobre cada proyecto. Son 6 html correspondientes ala galería. Al hacer click en una de las imágenes de la sección "Otros proyectos" del index, para ver más, se amplía la información.
+
+También hay un archivo Javascript que lo utilicé para realizar el carrusel de las imágenes de los proyectos destacados.
