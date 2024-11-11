@@ -1148,7 +1148,7 @@ footer p {
     font-size: 20px;
     font-weight: 300;
     color: white;
-    line-height: 1.5; /* Ajusta este valor para centrar el texto verticalmente */
-    margin-bottom: 0; /* Elimina el margen inferior */
+    line-height: 1.5; 
+    margin-bottom: 0; 
 }
 /*------------------ FIN FOOTER------------------ */
